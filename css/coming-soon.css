@@ -40,7 +40,7 @@ video {
 
 @media (pointer: coarse) and (hover: none) {
   body {
-    background: url("../img/bg-mobile-fallback.jpg") #002E66 no-repeat center center scroll;
+    background: url("../mp4/STF_Final2.mov") #002E66 no-repeat center center scroll;
     background-position: cover;
   }
   body video {
