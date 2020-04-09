@@ -38,12 +38,36 @@
           <div class="masthead-content text-white py-5 py-md-0">
             <h2 class="mb-3">Proximamente ...</h2>
             <p class="mb-5">¡Regístrate para recibir actualizaciones!</p>
+            
+            <form class="form-horizontal" role="form" method="POST" action="send_mail.php">
+            
             <div class="input-group input-group-newsletter">
-              <input type="email" class="form-control" placeholder="Ingrese email..." aria-label="Enter email..." aria-describedby="basic-addon">
+              <input type="email" class="form-control" name ="asunto" placeholder="Ingrese email..." aria-label="Enter email..." aria-describedby="basic-addon">
               <div class="input-group-append">
-                <button class="btn btn-secondary" type="button">Registrar!</button>
+                <button class="btn btn-secondary" type="submit">Registrar!</button>
               </div>
             </div>
+
+            </form>
+
+            <!-- <form class="form-horizontal" role="form" method="POST" action="send_mail.php">
+              <div class="row">
+                  <div class="col-md-7">
+                      <div class="input-group">
+                       <input type="email" class="form-control" name="asunto" placeholder = "Enter email" required>
+                          <div class="input-group-btn">
+                              <button type="submit" class="btn btn-default">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</button>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-md-3">
+                      <div class="input-group">
+                      </div>
+                  </div>
+              </div>
+          </form>-->
+
+          
           </div>
         </div>
       </div>
